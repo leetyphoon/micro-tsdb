@@ -1,7 +1,7 @@
 # MICRO-TSDB
 Node.js TSDB, Time Series Database
 
-#Example
+# Example
 ```
 const tsdb = require('./micro-tsdb');
 // tsdb.tz('Asia/Seoul'); <= default
@@ -39,6 +39,7 @@ console.log(fireB.name);
 console.log(sB);
 ```
 
+```
 Data: C:\works\src\.data
 fireA: C:\works\src\.data\fireA
 fireB: C:\works\src\.data\fireB
@@ -94,4 +95,4 @@ fireB
   { t: '20230718111029448', v: 1 },
   { t: '20230718111029448', v: 0 }
 ]
-
+```
